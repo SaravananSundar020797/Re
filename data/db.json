@@ -1,17 +1,17 @@
 {
   "items": [
     {
-      "id": "1",
+      "id": 1,
       "checked": true,
       "item": "Playing"
     },
     {
-      "id": "2",
+      "id": 2,
       "checked": true,
       "item": "Js Practice"
     },
     {
-      "id": "3",
+      "id": 3,
       "checked": false,
       "item": "Git"
     }
