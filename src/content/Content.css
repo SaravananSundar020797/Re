@@ -1,0 +1,101 @@
+/* .mainBlock{
+  
+} */
+.mainBlock ul{
+ list-style: none;
+ padding: 10px;
+ margin: 0; 
+}
+.mainBlock ul li{
+  display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #ffb76b;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+.mainBlock ul li:last-child{
+    margin-bottom: 0px;
+}
+.mainBlock ul li div{
+  display: flex;
+}
+.mainBlock ul li div input[type='checkbox']{
+  width: 20px;
+  height:20px;
+  cursor: pointer;
+}
+.mainBlock ul li div label{
+  margin-left:5px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.deleteBtn{
+    border: none;
+    border-radius: 5px;
+    padding: 2px 10px;
+    background: #ff8d21;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+}
+.deleteBtn .deleteSvg{
+  color: #fff;
+}
+
+.deleteBtn:hover{
+  background-color: #ee0000;
+}
+
+.levelTag{
+  margin-left: 5px;
+  background: #ff7b00;
+  font-size: 10px;
+  padding: 2px 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+.dangerAlert{
+  background: #ee0000;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.dangerAlert p{
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.itemsCount{
+  text-align: left;
+  display: flex;
+  width: fit-content;
+  background: #ffb76b;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 400;
+  color: #fff;
+}
+.itemsCount span{
+  margin-right: 5px;
+  padding: 2px;
+  background: #ff7b00;
+  border-radius: 100px;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  font-size: 15px;
+  justify-content: center;
+
+}
